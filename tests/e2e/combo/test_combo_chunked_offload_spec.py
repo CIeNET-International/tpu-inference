@@ -80,8 +80,8 @@ def _test_combo_chunked_offload_spec_accuracy(
         os.environ['TPU_OFFLOAD_NUM_CPU_CHUNKS'] = cpu_chunks
 
         # Ensure Hugging Face respects offline cache if specified
-        os.environ["HF_HOME"] = os.environ.get("HF_HOME", "/mnt/disks/tpu_data/cache/huggingface")
-        os.environ["HF_HUB_CACHE"] = os.environ.get("HF_HUB_CACHE", "/mnt/disks/tpu_data/cache/huggingface/hub")
+        os.environ["HF_HOME"] = os.environ.get("HF_HOME", "~/.cache/huggingface")
+        os.environ["HF_HUB_CACHE"] = os.environ.get("HF_HUB_CACHE", "~/.cache/huggingface/hub")
 
         tensor_parallel_size = int(os.environ.get("TPU_TP_SIZE", "8"))
 
