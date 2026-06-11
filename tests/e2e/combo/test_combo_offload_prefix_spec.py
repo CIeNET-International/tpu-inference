@@ -91,7 +91,6 @@ def _test_combo_offload_prefix_spec_accuracy(
             llm = LLM(
                 model=model_name,
                 max_model_len=512,
-                max_num_batched_tokens=2048,
                 max_num_seqs=num_requests,
                 async_scheduling=not speculative_config,
                 tensor_parallel_size=tensor_parallel_size,

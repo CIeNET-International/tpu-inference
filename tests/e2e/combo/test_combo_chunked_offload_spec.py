@@ -98,7 +98,6 @@ def _test_combo_chunked_offload_spec_accuracy(
             llm = LLM(
                 model=model_name,
                 max_model_len=512,
-                max_num_batched_tokens=2048,
                 max_num_seqs=num_requests,
                 async_scheduling=async_scheduling_val,
                 tensor_parallel_size=tensor_parallel_size,
