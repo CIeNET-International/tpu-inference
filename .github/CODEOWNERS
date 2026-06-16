@@ -10,8 +10,8 @@
 * @vipannalla @kyuyeunk @QiliangCui
 
 # CI/CD and Build Configuration
-/.buildkite/ @jcyang43 @QiliangCui @yiw-wang @CienetStingLin
-/.github/ @jcyang43 @QiliangCui @yiw-wang @CienetStingLin
+/.buildkite/ @QiliangCui @yiw-wang @CienetStingLin
+/.github/ @QiliangCui @yiw-wang @CienetStingLin
 
 # Documentation
 /docs/ @bvrockwell @vipannalla
@@ -63,7 +63,7 @@
 /docker/ @jrplatin @QiliangCui @yiw-wang
 
 # Tools (kernel tuner, etc.)
-/tools/ @vipannalla @kyuyeunk @patrickji2014
+/tools/ @vipannalla @kyuyeunk @patrickji2014 @yiw-wang @qiliangcui
 
 # Unowned: scripts, examples, and bot-updated support_matrices —
 # anyone can approve, no required CODEOWNER review. Bot pushes to
